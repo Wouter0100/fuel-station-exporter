@@ -1,4 +1,4 @@
-module go-fuel-station-exporter
+module fuel-station-exporter
 
 go 1.13
 

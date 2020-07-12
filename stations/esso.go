@@ -3,7 +3,7 @@ package stations
 import (
 	"fmt"
 	"github.com/PuerkitoBio/goquery"
-	"go-fuel-station-exporter/models"
+	"fuel-station-exporter/models"
 	"net/http"
 	"strconv"
 	"strings"

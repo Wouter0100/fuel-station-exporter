@@ -2,12 +2,12 @@ package main
 
 import (
 	"github.com/prometheus/client_golang/prometheus"
-	"go-fuel-station-exporter/models"
+	"fuel-station-exporter/models"
 	"log"
 	"net/http"
 	"time"
 
-	_ "go-fuel-station-exporter/stations"
+	_ "fuel-station-exporter/stations"
 )
 
 type fuelCollector struct {
